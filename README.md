@@ -7,14 +7,14 @@ The program allows users to **add, display, search, update, and delete student r
 ## Project Structure
 The project contains the following files:
 
-### 1️**Student.java**
+### 1️. **Student.java**
 - Represents a student with attributes: **PRN, Name, Date of Birth, and Marks**.
 - Contains:
   - **Constructor** to initialize student details.
   - **Getters and Setters** to access and modify student attributes.
   - `displayStudent()` → Displays student details.
 
-### 2️**StudentOperations.java**
+### 2️. **StudentOperations.java**
 - Handles all operations related to students.
 - Functions included:
   - `addStudent(String prn, String name, String dob, double marks)` → Adds a new student.
@@ -25,7 +25,7 @@ The project contains the following files:
   - `updateStudent(String prn, String newName, String newDob, double newMarks)` → Updates a student's details.
   - `deleteStudent(String prn)` → Deletes a student by PRN.
 
-### 3️**Main.java**
+### 3️. **Main.java**
 - Contains the **menu-driven program**.
 - Displays a menu and allows users to interact with the system.
 - Uses **Scanner** for input handling.
